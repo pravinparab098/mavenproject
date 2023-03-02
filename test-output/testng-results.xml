@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-01T12:51:32Z" name="Default suite" finished-at="2023-03-01T12:52:23Z" duration-ms="50760">
+    <groups>
+      <group name="Purchase">
+        <method signature="frameWork4_HashMap.submitOrder(java.util.HashMap)[pri:0, instance:pravinParab.frameWorks.frameWork4_HashMap@be68757]" name="submitOrder" class="pravinParab.frameWorks.frameWork4_HashMap"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2023-03-01T12:51:32Z" name="Default test" finished-at="2023-03-01T12:52:23Z" duration-ms="50760">
+      <class name="pravinParab.frameWorks.frameWork4_HashMap">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:pravinParab.frameWorks.frameWork4_HashMap@be68757]" started-at="2023-03-01T12:51:32Z" name="launchApplication" finished-at="2023-03-01T12:51:35Z" duration-ms="3097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:pravinParab.frameWorks.frameWork4_HashMap@be68757]" started-at="2023-03-01T12:51:35Z" name="submitOrder" data-provider="getData" finished-at="2023-03-01T12:51:51Z" duration-ms="15917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, email=anshika@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pravinParab.frameWorks.frameWork4_HashMap@be68757]" started-at="2023-03-01T12:51:51Z" name="tearDown" finished-at="2023-03-01T12:51:54Z" duration-ms="2151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:pravinParab.frameWorks.frameWork4_HashMap@be68757]" started-at="2023-03-01T12:51:54Z" name="launchApplication" finished-at="2023-03-01T12:51:55Z" duration-ms="1548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:pravinParab.frameWorks.frameWork4_HashMap@be68757]" started-at="2023-03-01T12:51:55Z" name="submitOrder" data-provider="getData" finished-at="2023-03-01T12:52:11Z" duration-ms="15487" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, email=shetty@gmail.com, productName=IPHONE 13 PRO}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pravinParab.frameWorks.frameWork4_HashMap@be68757]" started-at="2023-03-01T12:52:11Z" name="tearDown" finished-at="2023-03-01T12:52:13Z" duration-ms="2155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:pravinParab.frameWorks.frameWork4_HashMap@be68757]" started-at="2023-03-01T12:52:13Z" name="launchApplication" finished-at="2023-03-01T12:52:15Z" duration-ms="2221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest(java.util.HashMap)[pri:0, instance:pravinParab.frameWorks.frameWork4_HashMap@be68757]" started-at="2023-03-01T12:52:15Z" name="OrderHistoryTest" data-provider="getData" finished-at="2023-03-01T12:52:16Z" depends-on-methods="pravinParab.frameWorks.frameWork4_HashMap.submitOrder" duration-ms="783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, email=anshika@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pravinParab.frameWorks.frameWork4_HashMap@be68757]" started-at="2023-03-01T12:52:16Z" name="tearDown" finished-at="2023-03-01T12:52:18Z" duration-ms="2127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:pravinParab.frameWorks.frameWork4_HashMap@be68757]" started-at="2023-03-01T12:52:18Z" name="launchApplication" finished-at="2023-03-01T12:52:20Z" duration-ms="2355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest(java.util.HashMap)[pri:0, instance:pravinParab.frameWorks.frameWork4_HashMap@be68757]" started-at="2023-03-01T12:52:20Z" name="OrderHistoryTest" data-provider="getData" finished-at="2023-03-01T12:52:21Z" depends-on-methods="pravinParab.frameWorks.frameWork4_HashMap.submitOrder" duration-ms="697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, email=shetty@gmail.com, productName=IPHONE 13 PRO}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pravinParab.frameWorks.frameWork4_HashMap@be68757]" started-at="2023-03-01T12:52:21Z" name="tearDown" finished-at="2023-03-01T12:52:23Z" duration-ms="2172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pravinParab.frameWorks.frameWork4_HashMap -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

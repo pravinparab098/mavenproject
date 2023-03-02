@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="pravinParab.TestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Error Validation(failed)">
+    <classes>
+      <class name="pravinParab.frameWorks.frameWork3_ErrorValidation">
+        <methods>
+          <include name="LogInErrorValidation"/>
+          <include name="tearDown"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- pravinParab.frameWorks.frameWork3_ErrorValidation -->
+    </classes>
+  </test> <!-- Error Validation(failed) -->
+</suite> <!-- Failed suite [Suite] -->
